@@ -1,0 +1,22 @@
+{
+  "name": "patient-portal",
+  "version": "1.0.0",
+  "description": "A basic portal for patients and doctors with authentication",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "^5.4.11",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Sakshat Shinde",
+  "license": "ISC"
+}
